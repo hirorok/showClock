@@ -1,0 +1,17 @@
+{
+  "name": "showclock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "none",
+    "build": "pkg index.js --output showclock.exe"
+  },
+  "bin":{
+    "showclock": "showclock.exe"},
+  "author": "rokkaku, m.",
+  "license": "ISC",
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
