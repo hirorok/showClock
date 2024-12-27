@@ -1,4 +1,3 @@
-
 >show clock
 00:00:39.624 JST Tue Nov 5 2024
 >show wireless client summary
@@ -6,15 +5,15 @@ Number of Clients: 40
 
 MAC Address    AP Name                                        Type ID   State             Protocol Method     Role
 -------------------------------------------------------------------------------------------------------------------------
-02bc.18a5.d3f4 JINBO-0703-a05                                 WLAN 2    Run               11n(2.4) None       Local             
-089d.f432.0f7d JINBO-0605-a04                                 WLAN 1    Run               11ac     Dot1x      Local             
-089d.f47d.4849 JINBO-0605-a06                                 WLAN 1    Run               11ac     Dot1x      Local             
-089d.f482.d629 JINBO-0605-a02                                 WLAN 1    Run               11ac     Dot1x      Local             
-089d.f483.3d5d JINBO-0605-a01                                 WLAN 1    Run               11ac     Dot1x      Local             
-0ac2.d7de.73af JINBO-0605-a02                                 WLAN 2    Run               11ac     None       Local             
-12e4.7f39.0094 JINBO-0702-a04                                 WLAN 2    Run               11n(2.4) None       Local             
-1eeb.ed08.a190 JINBO-0605-a03                                 WLAN 2    Run               11ac     None       Local             
-26a1.a19b.726e JINBO-0702-a03                                 WLAN 2    Run               11ac     None       Local             
-286b.3554.1fa0 JINBO-0607-a05                                 WLAN 1    Run               11ac     Dot1x      Local             
-286b.3554.5e34 JINBO-0703-a03                                 WLAN 1    Run               11ac     Dot1x      Local             
-286b.3554.5e6b JINBO-0703-a02                                 WLAN 1    Run               11ac     Dot1x      Local             
+02bc.18a5.d3f4 JINBO-0703-a05                                 WLAN 2    Run               11n(2.4) None       Local
+089d.f432.0f7d JINBO-0605-a04                                 WLAN 1    Run               11ac     Dot1x      Local
+089d.f47d.4849 JINBO-0605-a06                                 WLAN 1    Run               11ac     Dot1x      Local
+089d.f482.d629 JINBO-0605-a02                                 WLAN 1    Run               11ac     Dot1x      Local
+089d.f483.3d5d JINBO-0605-a01                                 WLAN 1    Run               11ac     Dot1x      Local
+0ac2.d7de.73af JINBO-0605-a02                                 WLAN 2    Run               11ac     None       Local
+12e4.7f39.0094 JINBO-0702-a04                                 WLAN 2    Run               11n(2.4) None       Local
+1eeb.ed08.a190 JINBO-0605-a03                                 WLAN 2    Run               11ac     None       Local
+26a1.a19b.726e JINBO-0702-a03                                 WLAN 2    Run               11ac     None       Local
+286b.3554.1fa0 JINBO-0607-a05                                 WLAN 1    Run               11ac     Dot1x      Local
+286b.3554.5e34 JINBO-0703-a03                                 WLAN 1    Run               11ac     Dot1x      Local
+286b.3554.5e6b JINBO-0703-a02                                 WLAN 1    Run               11ac     Dot1x      Local

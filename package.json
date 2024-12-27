@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "none",
-    "build": "pkg index.js --output showclock.exe"
+    "build:pkg": "pkg index.js --output showclock.exe",
+    "build:nexe": "nexe index.js -o showclock.exe --build",
+    "build:ncc": "ncc build index.js -o showclock.exe"
   },
-  "bin":{
-    "showclock": "showclock.exe"},
+  "bin": {
+    "showclock": "showclock.exe"
+  },
   "author": "rokkaku, m.",
   "license": "ISC",
   "devDependencies": {
+    "ncc": "^0.3.6",
     "pkg": "^5.8.1"
   }
 }

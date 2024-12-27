@@ -3,6 +3,7 @@ const { join } = require('path');
 
 // コマンドライン引数を使用して入力ファイルを設定
 const args = process.argv.slice(2);
+// console.log(args);
 
 // 引数がない場合、エラーメッセージを表示して終了
 if (args.length === 0) {
@@ -10,7 +11,18 @@ if (args.length === 0) {
     process.exit(1);
 }
 
-const inputFilePath = join(__dirname, args[0]);
+//カレントディレクトリの取得
+const currentDir = process.cwd();
+
+const exePath = process.argv[1];
+// console.log("argv:",process.argv);
+// console.log("currentDir:",currentDir);
+
+// const inputFilePath = join(__dirname, args[0]);
+const inputFilePath = join(currentDir, args[0]);
+// const inputFilePath2 = join(currentDir, args[0]);
+// console.log(inputFilePath);
+// console.log(inputFilePath2);
 
 // 日時行の正規表現
 // >show clock
@@ -34,7 +46,7 @@ readFile(inputFilePath, 'utf8', (err, data) => {
         console.error('入力ファイルは空です。');
         return;
     }
-
+    // console.log(inputFilePath);
     // 改行コードに対応して行を分割
     const lines = data.split(/\r?\n/);
     let logtime = '';
